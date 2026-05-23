@@ -1,0 +1,43 @@
+export type CharacterProfile = {
+  name: string;
+  vibe: string;
+  face: {
+    skinTone: string;
+    glasses: boolean;
+    glassesColor: string;
+    glassesShape: string;
+    hat: boolean;
+    hatColor: string;
+    hatType: string;
+    hairColor: string;
+    hairStyle: string;
+    facialHair: string;
+    faceShape: string;
+  };
+  appearance: {
+    skinTone: string;
+    faceShape: string;
+    hairColor: string;
+    hairStyle: string;
+    hair: string;
+    glasses: boolean;
+    glassesColor: string;
+    glassesShape: string;
+    hat: boolean;
+    hatColor: string;
+    hatType: string;
+    hatDetails: string;
+    facialHair: string;
+    shirtColor: string;
+    glassesFrameColor: string;
+    clothingDetails: string;
+    notableFeatures: string[];
+    logosOrPatches: string[];
+    distinctiveMarks: string[];
+  };
+  catchphrases: string[];
+  specialPower: string;
+  theme: string;
+  obstacles: string[];
+  powerups: string[];
+};
